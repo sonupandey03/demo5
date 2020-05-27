@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sonu pandey first website</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+
+    /*css reset*/
+    body{
+        margin:0px ;
+        padding: 0px;
+        background-color: navy;
+        color: red;
+    }
+    .left{
+border: 2px ;
+display: inline block;
+
+position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+    .left img{
+        width:180px ;
+        font-size: 50px;
+
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid{
+
+        display: block;
+        width: 45% ;
+        margin:12px auto;
+        border: 2px ;
+        top: 20pxpx;
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        border: 2px ;
+        display: inline-block;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+       
+    }
+    .navbar li a {
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:active,.navbar li a:hover {
+        color:rgb(248, 61, 3);
+        text-decoration: underline;
+    }
+
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background: black;
+    padding: 4px 14px;
+    border: 10px;
+    font-size: 20px;
+    cursor:pointer ;
+    border-radius: 150px;
+}
+.btn:hover{
+    background-color: rgb(247, 247, 76);
+}
+    .container{
+        border: 4px ;
+        margin: 80px 5px;
+        padding: 75px;
+        width: 3px  50px;
+        top: 500px;
+        border-radius: 100px;
+    }
+ 
+ .from-group input{
+    text-align: center;
+    display: block;
+    width: 220px;
+    padding: 8px;
+    border :2px  ;
+    margin: 11px auto;
+    font-size: 12px;
+    
+
+ }
+ .container h3{
+     text-align: center;
+ }
+ .container button{
+  display: block;
+  width: 50%;
+  margin:auto ;
+  border-radius: 150px;
+ }
+ .left h3{
+     text-align: center;
+     font-size: 30px;
+ }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+<!-- left box for logo -->
+<img src="1.jpg" alt="">  
+<h3>WELOME TO A WEBSITE </h3>  
+</div>
+<div>
+
+</div>
+        <!-- midbox for navigation-->
+        <div class="mid">
+            <ul class="navbar">  
+                <li><a href="#" class="active">  Home </a></a> </li>
+                <li><a href="#">MENU</a> </li>
+                <li><a href="#">SPECIAL</a> </li>
+                <li><a href="#">MAP</a>  </li>
+            </ul> 
+
+        </div>
+
+        <div class="right">
+            <button class="btn">
+          Call now
+            </button>
+            <button class="btn"> 
+                Search 
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h3> welcome </h3>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="text" name=""placeholder="Enter your name">
+            </div>
+            <div class="from-group">
+                <input type="text" name=""placeholder="Enter your dish">
+            </div>
+            <div class="from-group">
+                <input type="text" name=""placeholder="Enter your address">
+            </div>
+            <div class="from-group">
+                <input type="text" name=""placeholder="Enter your phone number">
+            </div>
+            <button class="btn">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+</html>
